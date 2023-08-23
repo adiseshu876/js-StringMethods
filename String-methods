@@ -1,0 +1,153 @@
+let str1 = new String('What am I?');
+// typeof str1;
+// console.log(str1)
+ 
+//  let str = 'larch';
+// console.log(str[1])
+ 
+ 
+ 
+//  let arr = ['seshu','seshu2','seshu3'] // add index of vallue mutable change
+//  arr[0] = 'scots pine';
+// console.log(arr);
+ 
+//  str = 'DATA'
+//  str[1]='f'        //immutable can't change
+//  console.log(str)
+ 
+ 
+ 
+//  let quote = 'All generalizations are dangerous, even this one';
+// let quoteMark = 'All generalizations are dangerous, even this one!';
+// console.log(quote < quoteMark)
+ 
+ 
+//  let quote = 'All generalizations are dangerous, even this one';
+// c= quote.substring(2)
+// console.log(c)
+// console.log(quote.length)
+
+
+// concatination()
+
+// str1='angular'
+// str2='react'
+// str3='vue'
+// x= str1+str2+str3
+// console.log(x)
+// console.log(str1+','+str2+','+str3)
+ 
+ 
+//  comparisation()
+//  let str1 = 'datarte'
+//  let str2 = 'angular'
+//  c = str1<str2
+//  console.log(c)
+//  let str1 = 'Datarte'
+//  let str2 = 'angular'
+//  c = str1<str2
+//  console.log(c)
+ 
+ 
+ 
+//  let str=`we said that template literals,The \nJavascript map() method in JavaScript creates`
+//  console.log(str)
+ 
+//  concate()
+//    let a = 'All generalizations are dangerous, even this one';
+// let b = 'All generalizations are dangerous, even this one!';
+//  c = a.concat(' ', b)
+// console.log(c.toUpperCase())
+ 
+//  include()
+ 
+// data ='working on angular project '
+// x= data.includes('on')
+//  console.log(x)
+ 
+ 
+ 
+//  indexOf()
+//  app = 'All generalizations are dangerous'
+//  c = app.indexOf('z')
+//  console.log(c)
+ 
+ 
+//  startWith()
+ 
+//  let str = "generalizations";
+// x= str.startsWith('gen')
+// console.log(x)
+ 
+//  endsWith()
+//  let str = "generalizations";
+// c = str.endsWith('ns')
+// console.log(c)
+ 
+//  slice()
+//  let c = 'angular data calls'
+//  x = c.slice(7)
+//  console.log(x)
+ 
+//  subString()
+//  let c= 'angular frameworks'
+// b = c.substring(7,3)
+// d = c.slice(6,2)
+// console.log(b,d)
+ 
+//  split()
+//  let o = 'ejdfjejrijeirijiiiiiweowioeioioioiowwewieowioeiwo'
+//  z = o.split('')
+//  console.log(z)
+ 
+//  x = 'Always look on the bright side of life';
+// c = x .split(' ');
+// t= x .split(' ',5)
+// console.log(c,t)
+ 
+//  matchmathod()
+//  x = 'Always look on the bright side of life';
+// c=x.match('on');
+
+// console.log(c)
+ 
+//  regular expression()
+//  let re = /[A-Z]/;
+// let str = 'hi Tere! ow are you?';
+// let index = str.search(re);
+
+// console.log(index);
+// let str = 'You do not know what you do not know until you know.';
+// let substr = 'You'
+
+// let count = 0;
+
+// let index = str.indexOf(substr);
+// while(index !== -1) {
+//     count++;
+//     index = str.indexOf(substr, index + 1);
+// }
+
+// console.log(count);
+ 
+//  let str = 'JS indexOf';
+// let substr = 'JS'
+
+// let index = str.indexOf(substr);
+
+// console.log(index); // -1
+ 
+ 
+//  let set = ' data of set  '
+//  c = set.trimEnd()
+//  console.log(c)
+ 
+// //  padStart()
+//  let pad = 'abd'
+//  x = pad.padEnd(5,'5')
+//  console.log(x)
+ 
+ 
+ let str = "data sharing to componets"
+ let newStr = str.replace('data','ng')
+ console.log(newStr)
